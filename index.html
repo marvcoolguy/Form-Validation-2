@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,
+    200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <span><i class="fa-solid fa-hexagon-check"></i></span>
+                <input type="text" id="username" name="username">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+                <span><i class="fa-solid fa-octagon-check"></i></span>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <span><i class="fa-solid fa-octagon-check"></i></span>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again!  </label>
+                <input type="password" id="password2" name="password">
+                <span><i class="fa-solid fa-octagon-check"></i></span>
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/091e4ae564.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
